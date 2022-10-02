@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(90deg, #edefee,#c9c9c9);
+    height:100vh;
+    overflow: hidden; 
+
+}
+
+.container__table {
+    margin: 15px auto;
+    max-width: 800px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+table {
+    width: 800px;
+    margin: 2px auto;
+    background-color: #fff;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;  
+
+}
+
+td, th {
+    width: 10px;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #000;
+    
+  }
+
+  th {
+    background-color: #FFD700;
+    font-weight: bold;
+  }
+
+  td:hover {
+    background-color: 	#FFFACD;
+}
+
